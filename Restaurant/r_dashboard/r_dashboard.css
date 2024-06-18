@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.option {
+    background-color: #f8f9fa; /* Gray background color */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow */
+    transition: transform 0.3s ease; /* Added transition for pop effect */
+}
+
+.option:hover {
+    transform: translateY(-5px); /* Popping effect */
+}
+
+.option a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.option a:hover {
+    color: #000;
+    background-color: #ddd;
+}

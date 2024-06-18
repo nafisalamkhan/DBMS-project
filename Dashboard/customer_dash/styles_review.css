@@ -1,0 +1,31 @@
+@import url('base.css');
+
+.review-confirmation {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+}
+
+.review-confirmation h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.review-confirmation a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.review-confirmation a:hover {
+    background-color: #555;
+}

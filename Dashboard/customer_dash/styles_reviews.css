@@ -1,0 +1,51 @@
+@import url("base.css");
+
+.reviews-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.reviews-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.reviews-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.reviews-container table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+.reviews-container th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.reviews-container th {
+  background-color: #f4f4f4;
+}
+
+.reviews-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.reviews-container a:hover {
+  background-color: #555;
+}
